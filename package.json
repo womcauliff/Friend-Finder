@@ -1,0 +1,22 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "A compatibility-based \"FriendFinder\" application which utilizes surveys to present users with an overall best match. This project was built while examining routing with Express.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/womcauliff/Friend-Finder.git"
+  },
+  "author": "Will McAuliff <womcauliff@gmail.com> (http://will.mcauliff.org)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/womcauliff/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/womcauliff/Friend-Finder#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
