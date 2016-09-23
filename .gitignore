@@ -38,3 +38,6 @@ jspm_packages
 
 # for Mac
 .DS_Store
+
+# for environmental variables
+/*.env
