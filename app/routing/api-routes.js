@@ -8,6 +8,12 @@ module.exports = function(app) {
 
 	app.post('/api/friends', function (req, res) {
 		var newFriend = req.body;
-		console.log('POSTED' + newFriend);
+		console.log(
+			'POSTED' +
+			"\nname: " + newFriend.name +
+			"\nimage: " + newFriend.image +
+			"\nscores: " + newFriend.scores
+		);
+		res.json(true);
 	});
 };
