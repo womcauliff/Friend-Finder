@@ -1,23 +1,39 @@
 var friends = [
     {
-        "name":"Ahmed",
-        "image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores":[
+        "name": "Will",
+        "image": "http://will.mcauliff.org/images/profile_pic.png",
+        "scores": [
             5,
-            1,
-            4,
-            4,
+            3,
+            3,
+            3,
+            3,
             5,
-            1,
-            2,
             5,
-            4,
-            1
+            5,
+            3,
+            3
         ]
     },
     {
-        "name": "Will",
-        "image": "http://will.mcauliff.org/images/profile_pic.png",
+        "name": "Quentin",
+        "image": "https://sgtr.files.wordpress.com/2013/01/qt5.gif",
+        "scores": [
+            2,
+            1,
+            3,
+            5,
+            5,
+            5,
+            5,
+            5,
+            1,
+            3
+        ]
+    },
+    {
+        "name": "Abed",
+        "image": "https://connormckechnie.files.wordpress.com/2016/03/community-abed-whos-the-boss.jpg",
         "scores": [
             5,
             5,

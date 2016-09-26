@@ -24,6 +24,13 @@ module.exports = function(app) {
 			"\nscores: " + bestMatch.scores
 		);
 		res.json(bestMatch);//send compatible match JSON
+
+		//Add this user to list of profiles
+		friendData.push({
+			"name": newFriend.name,
+			"image": newFriend.image,
+			"scores": newFriend.scores
+		});
 	});
 
 	function combatibilityCheck(userScores) {
