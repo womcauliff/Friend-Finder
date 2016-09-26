@@ -34,6 +34,7 @@ $("#submit").on('click', function () {
 			formData,
 			function(response) {
 				console.log(response);
+				presentMatch(response);//show modal
 			}
 	    );
 	}
@@ -48,4 +49,10 @@ function allAnswered(formScores) {
 		}
 	}
 	return true;
+}
+
+function presentMatch(jsonProfile) {
+	$('#prof-name').text(jsonProfile.name);
+	$('#prof-image').attr('src', jsonProfile.image);
+	$('#matchModal').modal();
 }
